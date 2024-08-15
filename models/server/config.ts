@@ -16,4 +16,4 @@ const storage = new Storage(client);
 const users = new Users(client);
 
 
-export default { client, databases, users, avatars, storage }
+export { client, databases, users, avatars, storage }
